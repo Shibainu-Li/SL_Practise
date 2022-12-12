@@ -16,3 +16,4 @@ rootProject.name = "SL_PractiseProject"
 include ':app'
 include ':cppLibs'
 
+include ':uiLibs'

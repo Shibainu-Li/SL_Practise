@@ -13,10 +13,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        findViewById<View>(R.id.cpp_test).setOnClickListener {
-//            startActivity(Intent(this,CppTestMainActivity::class.java))
-//        }
+        findViewById<View>(R.id.cpp_test).setOnClickListener {
+            startActivity(Intent(this,CppTestMainActivity::class.java))
+        }
 
-        Log.d("testSL","c1:${CppTestManagaer().test1()}")
     }
 }
